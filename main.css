@@ -9,6 +9,8 @@ body {
   font-family: 'Poiret One', sans-serif;
   font-size: 13px;
   background: #FFFAC0;
+  background-color: #fffac0;
+  background-image: url("images/nistri.png");
 }
 
 h1, h2, h3, h4, h5 {
@@ -25,6 +27,10 @@ ul {
   margin: 0;
 }
 
+main {
+  width: 960px;
+  margin: 30px auto;
+}
 
 /*
  *
@@ -72,17 +78,6 @@ header {
   color: #D6414C;
 }
 
-
-/*
- *
- * MAIN
- *
-*/
-
-main {
-  width: 960px;
-  margin: 30px auto;
-}
 
 /* -----------------------------------
                HOME PAGE
@@ -159,7 +154,7 @@ a.rsvp:hover {
   flex-flow: row no-wrap;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .member_right {
@@ -187,15 +182,32 @@ a.rsvp:hover {
   margin-bottom: 15px;
 }
 
-.column-center h1 {
+.column-center h2 {
   text-align: center;
 }
 
 .column-center p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
+.column-center p:nth-child(4) {
+  margin-bottom: 50px;
+}
 
+.column-center q {
+  color: #D6414C;
+  font-size: 16px;
+  font-style: italic;
+}
+
+#qauthor {
+  display: block;
+  text-align: right;
+  color: #0A3542;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 
 
 /* -----------------------------------
@@ -214,8 +226,31 @@ a.rsvp:hover {
   text-transform: uppercase;
 }
 
+.contact_message h3 {
+  font-family: 'Lilita One', sans-serif;
+  color: #0A3542;
+  text-transform: uppercase;
+}
+
 .contact_message p {
   font-size: 16px;
+}
+
+a.kit_link {
+  font-size: 14px;
+  border: 2px solid #0A3542;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+a.kit_link:hover {
+  background: black;
+   color: #FFFAC0;
+}
+
+.contact_message h3 + p {
+  padding-bottom: 15px;
 }
 form {
   display: table;
