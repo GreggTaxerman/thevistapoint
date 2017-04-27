@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>The Vista Point</title>  
+        <link href="main.css" rel="stylesheet" type="text/css"> 
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+
+    </head>
+    <body id="contact">
+        <header>
+            <a href="index.html"><img class="logo" src="images/logo.svg" alt="The Vista Point"></a>
+            <ul class="nav">
+                <li><a href="About.html">About the Band</a></li>
+                <li><a id="contact_link" href="#">Contact/Booking</a></li>
+                <li><a href="https://www.facebook.com/thevistapoint/" target="_blank">Like Us On Facebook</a></li>
+            </ul>
+
+        </header>
+
+        <main>
+            <div class="contact_message">
+                <h1>Yo!</h1>
+                <p>We're stoked that you want to reach out to us. Whether you want to book us for a gig or discuss the meaning of life, please fill out the form to the right and we'll be sure to get back to you in a timely manner. Cheers!</p>
+                <h3>Press Kit</h3>
+                <p>To get a copy of our current press kit, please click the button below:</p>
+                <a class="kit_link" href="Vista_Point_Press_Kit.pdf" target="_blank">Download PDF</a>
+            </div>
+            <form method="post" action="#">
+                <p>
+                <label for="name">Name:</label><input type="text" id="name">
+                </p>
+                <p>
+                <label for="phone">Phone:</label><input type="tel" id="phone">
+                </p>
+                <p>
+                <label for="email">Email:</label><input type="email" id="email">
+                </p>
+                <p>
+                <label for="organization">Organization/Venue:</label><input type="text" id="organization">
+                </p>
+                <p>
+                <label for="message">Message:</label><textarea id="message"></textarea>
+                </p>
+                <p>
+                <input type="submit" value="Send">
+                </p>
+            </form>
+        </main>
+ </body>
+</html>
